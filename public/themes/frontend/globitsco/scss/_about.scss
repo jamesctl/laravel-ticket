@@ -1,0 +1,25 @@
+.middle-about {
+    width: 100%;
+    background: #FCE6D8;
+    padding: 100px 0;
+    .step-about {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 22px;
+        .item-b {
+            padding-left: 40px;
+            border-left: 1px solid #000;
+            color: #000;
+            &:first-child {
+                border-left: 0;
+            }
+            h2 {
+                font-size: 32px;
+                font-weight: 600;
+                padding: 15px 0;
+                max-width: 280px;
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+.pagination-wrapper {
+    text-align: center;
+}
+
+.pagination .page-item {
+    margin: 0 5px;
+}
+
+.pagination .page-link {
+    padding: 8px 16px;
+}

@@ -1,0 +1,201 @@
+.d-none {
+    display: none;
+}
+
+.otp-authentication-register .add-info {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.otp-authentication-register .text-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+.otp-authentication-register .text-checkbox input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.otp-authentication-register .text-sign {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.otp-authentication-register .text-sign a {
+    color: #21409A;
+    text-decoration: none;
+}
+
+.otp-authentication-register .text-opt {
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.otp-authentication-register .text-opt span {
+    color: #02B529;
+}
+
+.otp-authentication-register .number-opt {
+    width: 320px;
+    margin: 10px auto 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.otp-authentication .number-opt input,
+.otp-authentication-register .number-opt input {
+    width: 40px;
+    height: 40px;
+    margin: 0 5px;
+    text-align: center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #D6D6D6;
+    outline: none;
+}
+
+.otp-authentication-register .bt-xacnhan {
+    width: 320px !important;
+    margin: auto;
+}
+
+.tp .active {
+    --tw-border-opacity: 1;
+    border-bottom-width: 4px;
+    border-color: rgba(75, 157, 185, var(--tw-border-opacity));
+    font-weight: 500;
+}
+
+.all-student {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: 25px;
+}
+
+.stutent-content {
+    padding-bottom: 35px;
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.stutent-content .bage {
+    position: absolute;
+    top: -4px;
+    left: 15px;
+    width: 28px;
+    height: 34px;
+    z-index: 1;
+    clip-path: polygon(100% 100%, 50% 74%, 0 100%, 0 0, 100% 0);
+    text-align: center;
+    font-size: 16px;
+}
+
+.stutent-picture {
+    padding-bottom: 10px;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.stutent-picture img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.stutent-picture:hover img {
+    opacity: 0.7;
+}
+
+.text-infor-student {
+    width: 100%;
+    text-align: center;
+}
+
+.text-infor-student .name {
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-infor-student .name img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.text-infor-student .text-not font {
+    display: block;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.img-footer-small {
+    max-width: 60%;
+}
+
+@media (max-width: 768px) {
+    .all-student {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        column-gap: 15px;
+    }
+    .modal {
+        max-width: 90%;
+        max-height: 90vh;
+        overflow-y: scroll;
+        width: 90%;
+    }
+}
+
+.img-min-height-40 {
+    height: 100%;
+    min-height: 40px;
+}
+
+.payment-method-picker.active {
+    background: #ecf8ff;
+    border: 2px solid #c7e0ef;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .account-content-section {
+        padding-bottom: 80px;
+    }
+    .subscription-content-section {
+        padding-bottom: 100px;
+    }
+    .useracnt-content-section {
+        padding-bottom: 80px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .schedual-content-section {
+        padding-bottom: 80px;
+    }
+    .subscription-content-section {
+        padding-bottom: 120px;
+    }
+    .useracnt-content-section {
+        padding-bottom: 100px;
+    }
+    .account-content-section {
+        padding-bottom: 90px;
+    }
+}

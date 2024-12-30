@@ -1,0 +1,33 @@
+.editor {
+  min-height: 300px;
+}
+.box-file-uploader {
+  display: grid;
+  grid-template-columns: auto 150px;
+  padding: 0px 25px;
+  gap: 15px;
+  input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 3px;
+    &::-webkit-file-upload-button {
+      background: #fc960f;
+      border: none;
+      color: #fff;
+      padding: 10px;
+      margin-right: 20px;
+    }
+  }
+}
+.box-btn {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  gap: 15px;
+}
+.bg-gray {
+  background: #c4d0d5;
+}
+.bolder-bottom {
+  border-bottom: 1px solid #ccc;
+}
