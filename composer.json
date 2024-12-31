@@ -1,6 +1,20 @@
 {
     "name": "globit/laravel-ticket",
     "description": "Help your customer easy send request support for your website",
+    "keywords": [
+        "Globit",
+        "laravel",
+        "laravel-ticket"
+    ],
+    "homepage": "https://packagist.org/packages/globit/laravel-ticket",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jamesctl",
+            "email": "jamesctl@globit.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=8.0.2",
         "yajra/laravel-datatables": "^11.0",
