@@ -10,11 +10,42 @@
 ## Install the ticket package
 - Run: composer require "globit/laravel-ticket @dev"
 
-## Set up the package following the structure
+## Set up the package following the structure after installed ticket
+
+### Migrations
+Copy all migration files from "vendor/globit/laravel-ticket/database/migrations" folder to your application folder "app/database/migrations".
+
+Run: php artisan migrate
+
+### Models
+
+Copy all model files from "vendor/globit/laravel-ticket/app/Models" folder to your application folder "app/Models".
 
 ### Controllers
 Copy the controller files from "vendor/globit/laravel-ticket/app/Http/Controllers/Admin/TicketController.php" to your application folder "app/Http/Controllers/Admin".
 
+### Services
+
+Copy the controller files from "vendor/globit/laravel-ticket/app/Services" folder to your application folder "app/Services".
+
+### Routes
+
+Copy the ticket.php file from "vendor/globit/laravel-ticket/routes/admin/ticket.php" to your application folder "routes/admin/ticket.php".
+
+- Add the line include('admin/ticket.php'); in your admin route file "routes/admin.php"
+
+### Resources
+
+Copy all files from "vendor/globit/laravel-ticket/resources/views/admin/general" folder to your application folder "resources/views/admin/general" folder
+
+Copy all files from "vendor/globit/laravel-ticket/resources/views/admin/ticket" folder to your application folder "resources/views/admin/ticket" folder
+
+### Configs
+
+Copy imap.php, mail.php file from "vendor/globit/laravel-ticket/config" folder to your application folder "config".
+
+
+<!--
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
@@ -69,6 +100,7 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+-->
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
