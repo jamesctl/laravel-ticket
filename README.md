@@ -57,23 +57,23 @@ Copy all files from "vendor/globit/laravel-ticket/app/Mail" to your application 
 ### ENV variables
 Add these variables to your .env file
 
-IMAP_HOST=
-IMAP_PORT=
-IMAP_ENCRYPTION=ssl
-IMAP_VALIDATE_CERT=true
-IMAP_USERNAME=
-IMAP_PASSWORD=
-IMAP_DEFAULT_ACCOUNT=default
-IMAP_PROTOCOL=imap
+- IMAP_HOST=
+- IMAP_PORT=
+- IMAP_ENCRYPTION=ssl
+- IMAP_VALIDATE_CERT=true
+- IMAP_USERNAME=
+- IMAP_PASSWORD=
+- IMAP_DEFAULT_ACCOUNT=default
+- IMAP_PROTOCOL=imap
 
-MAIL_MAILER=smtp
-MAIL_HOST=
-MAIL_PORT=
-MAIL_USERNAME=
-MAIL_PASSWORD=
-MAIL_ENCRYPTION=ssl
-MAIL_FROM_ADDRESS=""
-MAIL_FROM_NAME="${APP_NAME}"
+- MAIL_MAILER=smtp
+- MAIL_HOST=
+- MAIL_PORT=
+- MAIL_USERNAME=
+- MAIL_PASSWORD=
+- MAIL_ENCRYPTION=ssl
+- MAIL_FROM_ADDRESS=""
+- MAIL_FROM_NAME="${APP_NAME}"
 
 
 ### Access ticket via these endpoints
