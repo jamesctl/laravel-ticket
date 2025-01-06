@@ -7,6 +7,14 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Install the ticket package
+- Run: composer require "globit/laravel-ticket @dev"
+
+## Set up the package following the structure
+
+### Controllers
+Copy the controller files from "vendor/globit/laravel-ticket/app/Http/Controllers/Admin/TicketController.php" to your application folder "app/Http/Controllers/Admin".
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
