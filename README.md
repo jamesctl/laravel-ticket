@@ -40,10 +40,45 @@ Copy all files from "vendor/globit/laravel-ticket/resources/views/admin/general"
 
 Copy all files from "vendor/globit/laravel-ticket/resources/views/admin/ticket" folder to your application folder "resources/views/admin/ticket" folder
 
+Copy email folder, vendor folder from "vendor/globit/laravel-ticket/resources/views/" to your application folder "resources/views/" folder
+
 ### Configs
 
 Copy imap.php, mail.php file from "vendor/globit/laravel-ticket/config" folder to your application folder "config".
 
+### Reference folders
+
+Copy folder "vendor/globit/laravel-ticket/lang" to your application folder "lang".
+
+Copy child folders from "vendor/globit/laravel-ticket/public/themes/" folder to your application folder "public/themes/".
+
+Copy all files from "vendor/globit/laravel-ticket/app/Mail" to your application folder "app/Mail".
+
+### ENV variables
+Add these variables to your .env file
+
+IMAP_HOST=
+IMAP_PORT=
+IMAP_ENCRYPTION=ssl
+IMAP_VALIDATE_CERT=true
+IMAP_USERNAME=
+IMAP_PASSWORD=
+IMAP_DEFAULT_ACCOUNT=default
+IMAP_PROTOCOL=imap
+
+MAIL_MAILER=smtp
+MAIL_HOST=
+MAIL_PORT=
+MAIL_USERNAME=
+MAIL_PASSWORD=
+MAIL_ENCRYPTION=ssl
+MAIL_FROM_ADDRESS=""
+MAIL_FROM_NAME="${APP_NAME}"
+
+
+### Access ticket via these endpoints
+
+- {domain}/admin/ticket
 
 <!--
 ## About Laravel
