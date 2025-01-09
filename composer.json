@@ -20,6 +20,11 @@
         "yajra/laravel-datatables": "^11.0",
         "yajra/laravel-datatables-oracle": "^11"
     },
+    "autoload": {
+        "psr-4": {
+            "Globit\\LaravelTicket\\": "src"
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
