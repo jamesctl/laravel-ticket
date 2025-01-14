@@ -25,6 +25,13 @@
             "Globit\\LaravelTicket\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Globit\\LaravelTicket\\LaravelTicketServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
