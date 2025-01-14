@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin\LoginController;
-use App\Http\Controllers\Frontend\LoginController as FrontendLoginController;
+//use App\Http\Controllers\Admin\LoginController;
+//use App\Http\Controllers\Frontend\LoginController as FrontendLoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,5 +17,5 @@ use App\Http\Controllers\Frontend\LoginController as FrontendLoginController;
 
 include('admin.php');
 
-Route::get('login', [FrontendLoginController::class, 'login'])->name('login');
-Route::post('do-login', [FrontendLoginController::class, 'doLogin'])->name('doLogin');
+//Route::get('login', [FrontendLoginController::class, 'login'])->name('login');
+//Route::post('do-login', [FrontendLoginController::class, 'doLogin'])->name('doLogin');
